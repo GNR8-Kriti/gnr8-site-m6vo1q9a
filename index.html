@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App - Stay Organized</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">TodoApp</div>
+            <ul class="nav-links">
+                <li><a href="#" class="active">Today</a></li>
+                <li><a href="#">Tomorrow</a></li>
+                <li><a href="#">This Week</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search tasks...">
+                <button class="search-btn">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to TodoApp</h1>
+            <p>Organize your tasks, boost your productivity</p>
+            <button class="cta-button">Get Started</button>
+            <div class="hero-image">
+                <div class="placeholder-content">
+                    <h3>Task Management</h3>
+                    <p>Visualize and manage your tasks with style</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="todo-list">
+            <div class="todo-header">
+                <h2>Your Tasks</h2>
+                <div class="task-input">
+                    <input type="text" id="new-task" placeholder="Add a new task...">
+                    <button id="add-task">Add Task</button>
+                </div>
+            </div>
+            <ul id="tasks"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact</a>
+        </div>
+        <p>&copy; 2023 TodoApp. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
